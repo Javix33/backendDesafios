@@ -21,8 +21,8 @@ usuario1.addBook("el señor de las moscas", "William Golding")
 usuario1.addBook("El arte de amarte", "Napa")
 usuario1.addMascota("gamera")
 usuario1.addMascota("gamera jr")
-usuario1.getFullName()
-usuario1
-usuario1.countMascotas()
-usuario1.getBookNames()
-usuario1.libros
+console.log(usuario1.getFullName())
+console.log(usuario1)
+console.log(usuario1.countMascotas())
+console.log(`los libros de este usuario son: ${usuario1.getBookNames()}`)
+console.log(usuario1.libros)
